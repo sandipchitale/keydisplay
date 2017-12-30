@@ -1,0 +1,15 @@
+{
+  "name" : "Keydisplay",
+  "version" : "1.0.0",
+  "description" : "Toggle Keydisplay Bar.",
+  "background" : {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions" : [ "activeTab", "tabs" ],
+  "browser_action" :
+  {
+    "default_title" : "Toggle Keydisplay Bar"
+  },
+  "manifest_version": 2
+}
